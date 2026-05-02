@@ -10,12 +10,19 @@
 
 	<main class="p-4 flex flex-col gap-4">
 		<!-- Now you can use your replicatable buttons! -->
-		<BaseButton label="Замовити Свято" />
-		<BaseButton label="Поповнити Картку" />
-		<BaseButton label="Атракціони" />
+		<BaseButton label="Замовити Свято"><PartyPopperIcon /></BaseButton>
+		<BaseButton label="Поповнити Картку"><CreditCardIcon /></BaseButton>
+		<BaseButton label="Атракціони"><FerrisWheelIcon /></BaseButton>
 	</main>
 </template>
 
 <script setup>
 import BaseButton from './components/BaseButton.vue'
+import {
+	HomeIcon,
+	UserIcon,
+	PartyPopperIcon,
+	CreditCardIcon,
+	FerrisWheelIcon,
+} from 'lucide-vue-next'
 </script>

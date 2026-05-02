@@ -4,6 +4,10 @@
 	--color-brand: #3b82f6;
 }
 
+.lucide {
+	stroke-width: 2px !important;
+}
+
 /* adjust density for larger screens */
 @media (min-width: 768px) {
 	.repeating-bg {
