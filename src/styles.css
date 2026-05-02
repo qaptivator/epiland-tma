@@ -4,8 +4,6 @@
 	--color-brand: #3b82f6;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
 /* adjust density for larger screens */
 @media (min-width: 768px) {
 	.repeating-bg {
@@ -14,10 +12,11 @@
 }
 
 .repeating-bg {
-	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif !important;
+	font-family: Montserrat, Helvetica, Arial, sans-serif !important;
 	font-weight: 700 !important;
 	font-size: 20px !important;
 	line-height: 24px !important;
+	/* text-transform here globally doesn't work, i placed it in the buttons */
 
 	background-repeat: repeat !important;
 	background-position: top center !important;

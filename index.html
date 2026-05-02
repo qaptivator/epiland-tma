@@ -8,8 +8,17 @@
 			href="/favicon.svg"
 		/>
 		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
 			rel="stylesheet"
-			href="/src/styles.css"
 		/>
 		<meta
 			name="viewport"
@@ -17,14 +26,11 @@
 		/>
 		<title>epiland-tma</title>
 	</head>
-	<body class="repeating-bg text-white">
-		<header class="flex p-4 justify-center items-center w-full bg-[#3c1889]">
-			<img
-				src="/logo.svg"
-				alt="Logo"
-				class="h-4 invert"
-			/>
-		</header>
-		<!--<h1 class="text-3xl font-bold p-4">Anti-AI Interface</h1>-->
+	<body class="repeating-bg">
+		<div id="app"></div>
+		<script
+			type="module"
+			src="/src/main.js"
+		></script>
 	</body>
 </html>
