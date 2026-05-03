@@ -10,21 +10,13 @@
 			/>
 		</header>
 		<main class="p-4 flex flex-col gap-4 h-full">
+			<BaseButton label="Замовити Свято"><PartyPopperIcon /></BaseButton>
+			<BaseButton label="Поповнити Картку"><CreditCardIcon /></BaseButton>
 			<BaseButton label="Атракціони"><FerrisWheelIcon /></BaseButton>
 			<BaseButton label="Кафе"><CoffeeIcon /></BaseButton>
+			<BaseButton label="Звʼязатися з нами"><PhoneIcon /></BaseButton>
+			<BaseButton label="Про нас"><InfoIcon /></BaseButton>
 			<div class="flex-1" />
-			<div class="flex gap-4">
-				<BaseButton
-					vertical
-					label="Замовити Свято"
-					><PartyPopperIcon
-				/></BaseButton>
-				<BaseButton
-					vertical
-					label="Поповнити Картку"
-					><CreditCardIcon
-				/></BaseButton>
-			</div>
 		</main>
 	</div>
 </template>
@@ -37,5 +29,7 @@ import {
 	CreditCardIcon,
 	FerrisWheelIcon,
 	CoffeeIcon,
+	PhoneIcon,
+	InfoIcon,
 } from 'lucide-vue-next'
 </script>
