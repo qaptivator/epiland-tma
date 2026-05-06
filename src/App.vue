@@ -10,11 +10,19 @@
 			/>
 		</header>
 		<main class="p-4 flex flex-col gap-4 h-full">
-			<BaseButton label="Замовити Свято"><PartyPopperIcon /></BaseButton>
-			<BaseButton label="Поповнити Картку"><CreditCardIcon /></BaseButton>
+			<BaseButton
+				label="Замовити Свято"
+				variant="primary"
+				><PartyPopperIcon
+			/></BaseButton>
+			<BaseButton
+				label="Поповнити Картку"
+				variant="primary"
+				><CreditCardIcon
+			/></BaseButton>
 			<BaseButton label="Атракціони"><FerrisWheelIcon /></BaseButton>
 			<BaseButton label="Кафе"><CoffeeIcon /></BaseButton>
-			<BaseButton label="Звʼязатися з нами"><PhoneIcon /></BaseButton>
+			<BaseButton label="Зв'язатися з нами"><PhoneIcon /></BaseButton>
 			<BaseButton label="Про нас"><InfoIcon /></BaseButton>
 			<div class="flex-1" />
 		</main>
