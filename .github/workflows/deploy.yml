@@ -36,7 +36,8 @@ jobs:
           node-version: lts/*
           cache: 'npm'
       - name: Install dependencies
-        run: npm ci
+        run: npm install
+        # npm ci has caused many unknown issues in the production for some reason
       - name: Build
         run: npm run build
       - name: Setup Pages
