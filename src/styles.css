@@ -22,6 +22,7 @@
 	line-height: 24px !important;
 	/* text-transform here globally doesn't work, i placed it in the buttons */
 
+	background-color: #ffffff;
 	background-repeat: repeat !important;
 	background-position: top center !important;
 	background-size: 270px !important;
